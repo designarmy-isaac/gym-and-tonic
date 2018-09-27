@@ -1,0 +1,70 @@
+.hero-section {
+  color: $black;
+  background: $success-color;
+  .logo {
+    display: inline-block;
+    width: 50%;
+    max-width: 560px;
+  }
+  h1 {
+    margin-bottom: 0;
+    position: relative;
+    bottom: -.6rem;
+  }
+}
+
+.body-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+.instagram-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: $black;
+  background: $light-gray;
+  h2 {
+    margin-bottom: 3rem;
+  }
+  h3 {
+    margin-top: 3rem;
+    a {
+      color: $medium-gray;
+      transition: .25s;
+      &:hover,
+      &:active {
+        color: $success-color;
+      }
+    }
+  }
+}
+
+a.social-icon {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: .25rem;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.social-icon-fb {
+  background: url('../img/icon-fb-gray.png')
+}
+.social-icon-ig {
+  background: url('../img/icon-ig-gray.png');
+  margin-left: 1rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  
+  .social-icon-fb {
+    background: url('../img/icon-fb-white.png')
+  }
+  .social-icon-ig {
+    background: url('../img/icon-ig-white.png')
+  }
+}
