@@ -1,4 +1,4 @@
-@for $i from 0 through 3 {
+@for $i from 0 through 10 {
   $margin: ($i);
 
   .mb#{$i} {
@@ -6,5 +6,11 @@
   }
   .mt#{$i} {
     margin-top: $margin+rem !important;
+  }
+  .pb#{$i} {
+    padding-bottom: $margin+rem !important;
+  }
+  .pt#{$i} {
+    padding-top: $margin+rem !important;
   }
 }

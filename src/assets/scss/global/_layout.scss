@@ -1,23 +1,86 @@
+.top-bar {
+  position: absolute;
+  width: 100%;
+}
+
+.top-bar-right {
+  position: absolute;
+  right: 2rem;
+}
+
+
 .hero-section {
+  position: relative;
   color: $black;
-  background: $success-color;
   .logo {
     display: inline-block;
     width: 50%;
     max-width: 560px;
+    @include breakpoint(large) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   h1 {
     margin-bottom: 0;
-    position: relative;
-    bottom: -.6rem;
+    position: absolute;
+    bottom: -.3rem;
+    @include breakpoint(large) {
+      bottom: -.6rem;
+    }
   }
 }
 
+.slideshow {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow img,
+.slideshow div {
+  width: 100%;
+}
+
+//
+//.slick-arrow.slick-next {
+//  position: absolute;
+//  right: 2rem;
+//  z-index: 5000;
+//}
+//.slick-arrow.slick-next:before {
+//  height: 1rem;
+//  width: 1rem;
+//  display: inline-block;
+//  content: "";
+//  border-left: 1px solid $light-gray;
+//  background-color: red;
+//}
+//.slick-arrow.slick-previous {
+//  position: absolute;
+//  left: 2rem;
+//  z-index: 5000;
+//}
+//.slick-arrow.slick-previous:before {
+//  height: 1rem;
+//  width: 1rem;
+//  display: inline-block;
+//  content: "";
+//  border-left: 1px solid $light-gray;
+//  background-color: red;
+//}
 .body-section {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color: $black;
 }
-
 
 .instagram-section {
   padding-top: 4rem;

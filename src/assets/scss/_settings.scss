@@ -142,7 +142,7 @@ $header-lineheight: .9;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 32),
+    'h1': ('font-size': 48),
     'h2': ('font-size': 20),
     'h3': ('font-size': 18),
     'h4': ('font-size': 16),
@@ -150,7 +150,7 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48),
+    'h1': ('font-size': 56),
     'h2': ('font-size': 32),
     'h3': ('font-size': 30),
     'h4': ('font-size': 24),
@@ -159,6 +159,14 @@ $header-styles: (
   ),
   large: (
     'h1': ('font-size': 80),
+    'h2': ('font-size': 36),
+    'h3': ('font-size': 31),
+    'h4': ('font-size': 24),
+    'h5': ('font-size': 20),
+    'h6': ('font-size': 16),
+  ),
+  xlarge: (
+    'h1': ('font-size': 100),
     'h2': ('font-size': 36),
     'h3': ('font-size': 31),
     'h4': ('font-size': 24),
