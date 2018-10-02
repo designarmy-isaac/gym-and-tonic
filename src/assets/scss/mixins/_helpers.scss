@@ -7,10 +7,22 @@
   .mt#{$i} {
     margin-top: $margin+rem !important;
   }
+  .mr#{$i} {
+    margin-right: $margin+rem !important;
+  }
+  .ml#{$i} {
+    margin-left: $margin+rem !important;
+  }
   .pb#{$i} {
     padding-bottom: $margin+rem !important;
   }
   .pt#{$i} {
     padding-top: $margin+rem !important;
+  }
+  .pr#{$i} {
+    padding-right: $margin+rem !important;
+  }
+  .pl#{$i} {
+    padding-left: $margin+rem !important;
   }
 }

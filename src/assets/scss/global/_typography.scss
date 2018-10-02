@@ -1,7 +1,7 @@
 h1,
 .h1 {
   text-transform: uppercase;
-  font-family: $body-font-family;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h2,
@@ -11,3 +11,9 @@ h2,
   letter-spacing: -.05rem;
 }
 
+.light-gray-text {
+  color: $light-gray;
+}
+.primary-text {
+  color: $primary-color;
+}
